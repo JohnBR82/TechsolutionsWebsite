@@ -25,7 +25,7 @@
 ## No Maximo Zoom,Google Meet, Discord, não aceito Telegram e não aceito entrar em grupos de discord
 
 # Aceita Freelancer ou CLT na minha empresa?
-## Aceito com no maximo salario de 2000 para cima, totalmente online
+## Aceito com no maximo salario de 2000R$ ao mês para mais, totalmente online
 
 # Você usa Inteligencia Artificial?
 ## Não prefiro fazer tudo na mão, mas admito que ela ajuda quando precisamos de uma segunda opinião
@@ -44,8 +44,8 @@
 # What social networks can I contact you on?
 ## At most, Zoom, Google Meet, or Discord. I do not accept Telegram, nor do I accept joining Discord groups.
 
-# Do you accept freelance or CLT positions at my company?
-## I accept positions with a salary of at least 2000 or higher, fully remote.
+# Do you accept freelance or Contract positions at my company?
+## I accept positions with a salary of at least 330$ month or higher, fully remote.
 
 # Do you use Artificial Intelligence?
 ## I prefer to do everything manually, but I admit that AI can be helpful when a second opinion is needed.
