@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSolucoes - Esqueceu a Senha</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'tech-blue': '#191970',
+                    },
+                    width: {
+                        '3': '18.75rem',
+                      }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen flex flex-col">
+    <div class="bg-tech-blue p-4"><button id="languageToggle" class="border border-white text-white px-4 py-2 text-sm font-medium hover:bg-white hover:text-tech-blue transition-colors duration-300">
+        PT-BR
+    </button></div>
+    <img src="../assets/Techsolucoeslogo.png" alt="Techsolucoes Logo" class="w-3">
+    <div class="container mx-auto max-w-md p-6">
+        <header class="flex justify-between items-center mb-8">
+            
+        </header>
+        <main>
+            <h1 data-translate="esqueceu-senha-titulo" class="text-2xl font-bold mb-6 text-center text-tech-blue">Esqueceu a Senha</h1>
+            <p data-translate="digite-email" class="mb-4 font-semibold text-gray-600">Digite o endereço de e-mail</p>
+             <div class="grid place-items-center ">
+             <input type="email" placeholder="*********@email.com" class="w-10/12 placeholder:text-center placeholder:text-gray-500 border border-gray-700 rounded py-2 px-4 mb-4 hover:border-gray-200 hover:bg-gray-200">
+             <button onclick="window.location.href='./esquecisenha2.html'" data-translate="confirmar" class="w-10/12 mt-2 text-blue-900 border-tech-blue border-2 rounded  text-lg font-semibold py-2 px-4 mb-8">Confirmar</button>
+             <div class="w-full bg-gray-300 text-white rounded-md py-[1px] px-4 mb-2"></div>
+             <p data-translate="ou" class="text-center justify-center relative flex text-gray-500 font-semibold px-4 mb-4">ou</p>
+             <a href="#" data-translate="lembrou-senha" class="block text-gray-500">Lembrou a senha?</a>
+             <button onclick="window.location.href='./logincliente.html'" data-translate="entrar" class="w-10/12 border-2 border-blue-950 text-blue-950 font-semibold text-lg rounded py-2 px-4 mb-4">Entrar</button>
+            </div>
+        </main>
+    </div>
+</body>
+<script src="js/js_language.js"></script>
+</html>

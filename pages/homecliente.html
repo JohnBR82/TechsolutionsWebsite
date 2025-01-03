@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="perfilpagina">TechSolucoes - Perfil</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./node_modules/preline/dist/preline.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'tech-blue': '#191970',
+                    },
+                    width: {
+                        '7': '18.75rem',
+                      },
+                      translate: {
+                        '700':'43.75rem',
+                      }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="lg:content-auto">
+    <div class="bg-tech-blue p-4">
+        <button id="languageToggle" class="border border-white text-white px-4 py-2 text-sm font-medium hover:bg-white hover:text-tech-blue transition-colors duration-300">
+            PT-BR
+        </button>
+    </div>
+    <img src="../assets/Techsolucoeslogo.png" alt="Techsolucoes Logo" class="w-3">
+    <a href="#" class="container mx-auto -mt-10 flex">
+    </a>
+    <main class="mx-auto py-8">
+        <div class="relative w-full h-96 overflow-hidden">
+            <button  id="prevBtn" class="absolute left-2 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-50 hover:bg-opacity-75 text-gray-800 font-bold py-2 px-4 rounded-full z-10">
+                <img src="../assets/Tecla voltar.png" alt="prev">
+            </button>
+            <button id="nextBtn" class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-50 hover:bg-opacity-75 text-gray-800 font-bold py-2 px-4 rounded-full z-10">
+                <img src="../assets/Vector prosseguir.png" alt="next">
+            </button>
+            <div id="carousel" class="w-full h-full relative ">
+                <div class="carousel-item relative inset-0 transition-opacity duration-500 ease-in-out opacity-100">
+                    <div class="flex-shrink-0 h-auto">
+                        <div class="justify-center content-center w-full">
+                            <div data-translate="plano-bronze" class="bg-orange-400  w-full rounded  text-white text-center py-4 text-2xl font-bold mx-auto">
+                            PLANO BRONZE
+                        </div>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-center mt-10">
+                            <!-- Imagem à esquerda -->
+                            <div class="flex justify-center">
+                                <img src="../assets/medalha-de-bronze2.png" alt="Plano Bronze" class="w-60 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl object-contain"> 
+                            </div>
+                
+                            <!-- Lista e informações no centro -->
+                            <div class="flex flex-col items-center md:items-start">
+                                <ul class="list-disc list-inside mb-6 text-blue-950 font-semibold space-y-2">
+                                    <li data-translate="free-ssl">SSL GRATUITA</li>
+                                    <li data-translate="cloudflare">CLOUDFLARE</li>
+                                    <li data-translate="technical-support">SUPORTE TECNICO</li>
+                                    <li data-translate="discount-extensions">DESCONTO EM EXTENSÕES</li>
+                                    <li data-translate="free-domain">1 DOMINIO GRATIS</li>
+                                    <li data-translate="discount-12-months">DESCONTOS EM 12 MESES</li>
+                                </ul>
+                                <div class="text-center md:text-left">
+                             
+                                </div>
+                            </div>
+                
+                            <!-- Texto e botão à direita -->
+                            <div class="flex flex-col items-center md:items-center space-y-4">
+                                <span class="translate-y-4 -translate-x-24 text-sm font-bold text-tech-blue block">12x</span>
+                                        <div class="mx-4">
+                                        <span class="text-5xl font-bold text-blue-950 block">R$ 39,90</span>
+                                        <span class="text-tech-blue text-xl translate-x-36 font-bold block" data-translate="mensal">Mensal</span>
+                                    </div>
+                                    <button data-translate="assinar" class="bg-white border-2 border-blue-950 text-blue-950 py-2 px-4 rounded hover:bg-tech-blue hover:text-white transition duration-300 z-30 relative">
+                                        Assinar
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        <div class="carousel-item absolute inset-0 transition-opacity duration-500 ease-in-out opacity-0">
+                            <div class="flex-shrink-0 h-auto">
+                                <div class="justify-center content-center w-full">
+                                    <div data-translate="plano-prata" class="bg-gray-400  w-full rounded  text-white text-center py-4 text-2xl font-bold mx-auto">
+                                    PLANO PRATA
+                                </div>
+                                </div>
+                                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-center mt-10">
+                                    <!-- Imagem à esquerda -->
+                                    <div class="flex justify-center">
+                                        <img src="../assets/medalha-de-prata2.png" alt="Plano Prata" class="w-60 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl object-contain"> 
+                                    </div>
+                        
+                                    <!-- Lista e informações no centro -->
+                                    <div class="flex flex-col items-center md:items-start">
+                                        <ul class="list-disc list-inside mb-6 text-blue-950 font-semibold space-y-2">
+                                                <li data-translate="free-ssl">SSL GRATUITA</li>
+                                                <li data-translate="cloudflare">CLOUDFLARE</li>
+                                                <li data-translate="technical-support">SUPORTE TECNICO</li>
+                                                <li data-translate="discount-extensions">DESCONTO EM EXTENSÕES</li>
+                                                <li data-translate="two-free-domains">2 DOMINIO GRATIS</li>
+                                                <li data-translate="discount-12-months">DESCONTOS EM 12 MESES</li>
+                                        </ul>
+                                        <div class="text-center md:text-left">
+                                     
+                                        </div>
+                                    </div>
+                        
+                                    <!-- Texto e botão à direita -->
+                                    <div class="flex flex-col items-center md:items-center space-y-4">
+                                        <span class="translate-y-4 -translate-x-24 text-sm font-bold text-tech-blue block">12x</span>
+                                                <div class="mx-4">
+                                                <span class="text-5xl font-bold text-blue-950 block">R$ 69,90</span>
+                                                <span class="text-tech-blue text-xl translate-x-36 font-bold block" data-translate="mensal">Mensal</span>
+                                            </div>
+                                            <button data-translate="assinar" class="bg-white border-2 border-blue-950 text-green-950 py-2 px-4 rounded hover:bg-tech-blue hover:text-white transition duration-300 z-30 relative">
+                                                Assinar
+                                            </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                                <div class="carousel-item absolute inset-0 transition-opacity duration-500 ease-in-out opacity-0">
+                                    <div class="flex-shrink-0 h-auto">
+                                        <div class="justify-center content-center w-full">
+                                            <div data-translate="plano-ouro" class="bg-yellow-400  w-full rounded  text-white text-center py-4 text-2xl font-bold mx-auto">
+                                            PLANO OURO
+                                        </div>
+                                        </div>
+                                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-center mt-10">
+                                            <!-- Imagem à esquerda -->
+                                            <div class="flex justify-center">
+                                                <img src="../assets/medalha-de-ouro2.png" alt="Plano Ouro" class="w-60 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl object-contain"> 
+                                            </div>
+                                
+                                            <!-- Lista e informações no centro -->
+                                            <div class="flex flex-col items-center md:items-start">
+                                                <ul class="list-disc list-inside mb-6 text-blue-950 font-semibold space-y-2">
+                                                    <li data-translate="free-ssl">SSL GRATUITA</li>
+                                                    <li data-translate="cloudflare">CLOUDFLARE</li>
+                                                    <li data-translate="technical-support">SUPORTE TECNICO</li>
+                                                    <li data-translate="discount-extensions">DESCONTO EM EXTENSÕES</li>
+                                                    <li data-translate="three-free-domains">3 DOMINIO GRATIS</li>
+                                                    <li data-translate="discount-12-months">DESCONTOS EM 12 MESES</li>
+                                                </ul>
+                                                <div class="text-center md:text-left">
+                                             
+                                                </div>
+                                            </div>
+                                
+                                            <!-- Texto e botão à direita -->
+                                            <div class="flex flex-col items-center md:items-center space-y-4">
+                                                <span class="translate-y-4 -translate-x-24 text-sm font-bold text-tech-blue block">12x</span>
+                                                        <div class="mx-4">
+                                                        <span class="text-5xl font-bold text-blue-950 block">R$ 159,90</span>
+                                                        <span class="text-tech-blue text-xl translate-x-36 font-bold block" data-translate="mensal">Mensal</span>
+                                                    </div>
+                                                    <button data-translate="assinar" class="bg-white border-2 border-blue-950 text-blue-950 py-2 px-4 rounded hover:bg-tech-blue hover:text-white transition duration-300 z-30 relative">
+                                                        Assinar
+                                                    </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                        <div class="carousel-item absolute inset-0 transition-opacity duration-500 ease-in-out opacity-0">
+                                            <div class="flex-shrink-0 h-full">
+                                                <div class="justify-center content-center w-full">
+                                                    <div data-translate="plano-diamante" class="bg-blue-400  w-full rounded  text-white text-center py-4 text-2xl font-bold mx-auto">
+                                                    PLANO DIAMANTE
+                                                </div>
+                                                </div>
+                                                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-center mt-10">
+                                                    <!-- Imagem à esquerda -->
+                                                    <div class="flex justify-center">
+                                                        <img src="../assets/diamante2.png" alt="Plano Ouro" class="w-60 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl object-contain"> 
+                                                    </div>
+                                        
+                                                    <!-- Lista e informações no centro -->
+                                                    <div class="flex flex-col items-center md:items-start">
+                                                        <ul class="list-disc list-inside mb-6 text-blue-950 font-semibold space-y-2">
+                                                            <li data-translate="free-ssl">SSL GRATUITA</li>
+                                                            <li data-translate="cloudflare">CLOUDFLARE</li>
+                                                            <li data-translate="technical-support">SUPORTE TECNICO</li>
+                                                            <li data-translate="discount-extensions">DESCONTO EM EXTENSÕES</li>
+                                                            <li data-translate="six-free-domains">6 DOMINIOS GRATIS</li>
+                                                            <li data-translate="discount-12-months">DESCONTOS EM 12 MESES</li>
+                                                        </ul>
+                                                        <div class="text-center md:text-left">
+                                                     
+                                                        </div>
+                                                    </div>
+                                        
+                                                    <!-- Texto e botão à direita -->
+                                                    <div class="flex flex-col items-center md:items-center space-y-4">
+                                                        <span class="translate-y-4 -translate-x-24 text-sm font-bold text-tech-blue block">12x</span>
+                                                                <div class="mx-4">
+                                                                <span class="text-5xl font-bold text-blue-950 block">R$ 299,90</span>
+                                                                <span class="text-tech-blue text-xl translate-x-36 font-bold block" data-translate="mensal">Mensal</span>
+                                                            </div>
+                                                            <button data-translate="assinar" class="bg-white border-2 border-blue-950 text-blue-950 py-2 px-4 rounded hover:bg-tech-blue hover:text-white transition duration-300 z-30 relative">
+                                                                Assinar
+                                                            </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                <!-- Adicione mais slides aqui -->
+            </div>
+            <div class="absolute bottom-4 left-0 right-0 z-20">
+                <div class="flex justify-center space-x-2">
+                    <button class="w-3 h-3 bg-tech-blue rounded-full focus:outline-none carousel-dot" data-index="0"></button>
+                    <button class="w-3 h-3 bg-gray-900 rounded-full focus:outline-none carousel-dot" data-index="1"></button>
+                    <button class="w-3 h-3 bg-gray-900 rounded-full focus:outline-none carousel-dot" data-index="2"></button>
+                    <button class="w-3 h-3 bg-gray-900 rounded-full focus:outline-none carousel-dot" data-index="3"></button>
+                </div>
+            </div>
+       
+        <div class="justify-center content-center w-full">
+        <button class="absolute w-64 my-1 bg-white border-4 border-green-950 text-green-950 font-semibold py-2 px-4 rounded hover:bg-tech-blue hover:text-white transition duration-300 z-20">
+            Continuar Sem Plano
+        </button>
+    </div>
+    </div>
+    </main>
+    
+    <div class="w-full bg-gray-300 text-white rounded-md py-[1px] px-4 mb-2"></div>
+
+    <div class="flex flex-col">
+        <div class="flex items-center space-x-4 p-10">
+            <!-- Título -->
+            <p alt="TechSolucoes Logo" data-translate="perfil" class="text-3xl text-tech-blue font-bold">
+                Perfil
+            </p>
+            
+            <!-- Botão -->
+            <a href="#perfil" data-translate="alterar-perfil" class="bg-tech-blue border rounded-xl border-tech-blue text-white px-4 py-2 text-sm font-medium hover:bg-white hover:text-tech-blue transition-colors duration-300">
+                Alterar Perfil
+            </a>
+        </div>
+        
+        <div class="container mx-auto py-8 p-4">
+            <div class="grid grid-cols-2 gap-[1vh]">
+                    <div class="flex flex-col gap-1">
+                      <label for="name" class="text-blue-950" data-translate="nome-completo">Nome Completo</label>
+                      <input id="name" type="name" class="w-full placeholder:text-center placeholder:text-gray-500 border rounded py-2 px-4 border-gray-200 bg-gray-200">
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <label for="cpf" class="text-blue-950" data-translate="cpf">CPF</label>
+                      <input id="cpf" type="cpf" class="w-full placeholder:text-center placeholder:text-gray-500 border rounded py-2 px-4 border-gray-200 bg-gray-200">
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <label for="email" class="text-blue-950">Email</label>
+                      <input id="email" type="email" class="w-full placeholder:text-center placeholder:text-gray-500 border rounded py-2 px-4 border-gray-200 bg-gray-200">
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <label for="password" class="text-blue-950" data-translate="senha">Senha</label>
+                      <input id="password" type="password" placeholder="***************" class="w-full placeholder:text-center placeholder:text-gray-500 border rounded py-2 px-4 border-gray-200 bg-gray-200">
+                      <button class="absolute transform translate-y-7 translate-x-700 text-gray-400" onclick="togglePasswordVisibility('confirm-password')">
+                        <img src="../assets/Oculto.png" alt="Oculto" class="w-[40px]">
+                    </button>
+                    </div>
+                  </div>
+
+            </div>
+            <footer class="mt-8 text-center text-gray-500 text-sm">
+                <p data-translate="copyright">Copyright © 2024 Techsolucoes. Todos os direitos Reservados</p>
+            </footer>
+        </div>
+
+        <script>
+            const carousel = document.getElementById('carousel');
+            const items = carousel.querySelectorAll('.carousel-item');
+            const dots = document.querySelectorAll('.carousel-dot');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            let currentIndex = 0;
+        
+            function showSlide(index) {
+                if (index < 0) index = items.length - 1;
+                if (index >= items.length) index = 0;
+                
+                items.forEach((item, i) => {
+                    item.style.opacity = i === index ? '1' : '0';
+                });
+                dots.forEach((dot, i) => {
+                    dot.classList.toggle('bg-tech-blue', i === index);
+                    dot.classList.toggle('bg-gray-900', i !== index);
+                });
+                currentIndex = index;
+            }
+        
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', () => showSlide(index));
+            });
+        
+            prevBtn.addEventListener('click', () => showSlide(currentIndex - 1));
+            nextBtn.addEventListener('click', () => showSlide(currentIndex + 1));
+        
+            // Auto-advance the carousel every 5 seconds (opcional)
+            // setInterval(() => {
+            //     showSlide((currentIndex + 1) % items.length);
+            // }, 5000);
+        </script>
+    
+</body>
+
+<style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+    }
+  </style>
+  <script src="js/js_language.js"></script>
+</html>

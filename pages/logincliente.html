@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSolucoes - Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'tech-blue': '#191970',
+                        'tech-gold': '#FFD700',
+                    },
+                    width: {
+                        '3': '18.75rem',
+                      }
+                }
+            }
+        }
+    </script>
+
+</head>
+<body class="min-h-screen flex flex-col">
+    <div class="bg-tech-blue p-4">        
+        <button id="languageToggle" class="border border-white text-white px-4 py-2 text-sm font-medium hover:bg-white hover:text-tech-blue transition-colors duration-300">
+        PT-BR
+        </button>
+    </div>
+    <img src="../assets/techsolucoeslogo.png" alt="Techsolucoes Logo" class="w-3">
+    <a href="#" class=" container mx-auto -mt-20 flex justify-end">
+        <img src="../assets/HomeIcon.png" class="w-8 h-8">
+    </a>
+    <div class="container mx-auto max-w-md p-6">
+        
+        <header class="flex justify-between items-center mb-8">
+        </header>
+        <main>
+            
+            <h1 class="text-2xl font-bold mb-6 text-blue-900" data-translate="entrar-na-conta">Entrar Na Conta</h1>
+            <div class="grid place-items-center ">
+            <button class="w-full h-12 bg-white border border-gray-600 rounded-md py-2 px-4 mb-4 flex items-center justify-center" onclick="window.location.href='https://workspace.google.com/intl/pt-BR/gmail/'">
+                <img src="../assets/google.png" alt="Google Icon" class="h-5 mr-2">
+                <span data-translate="fazer-login-google">Fazer login com o Google</span>
+            </button>
+            <button class="w-full h-12 bg-white border border-gray-600 rounded-md py-2 px-4 mb-4 flex items-center justify-center" onclick="window.location.href='https://www.apple.com/br/'">
+                <img src="../assets/apple.png" alt="Apple Icon" class="h-5 mr-2">
+                <span data-translate="fazer-login-apple">Fazer login com a Apple</span>
+            </button>
+           
+            <div class="w-full bg-gray-300 text-white rounded-md py-[1px] px-4 mb-2"></div>
+            <p class="text-center justify-center relative flex text-gray-500 font-semibold px-4 mb-2" data-translate="ou">ou</p>
+            <button onclick="window.location.href='./criarconta.html'" class="w-9/12 border-gray-600 border-2 text-gray-600 hover:bg-tech-blue hover:text-white hover:border-tech-blue rounded-md py-2 px-4 mb-6" data-translate="criar-conta">Criar Conta</button>
+<div class="w-11/12 rounded-md py-2 px-4 mb-4">
+                <label for="new-email" class="block text-sm font-medium font-semibold text-gray-600 mb-1" data-translate="email">Email</label>
+                <div class="relative">
+                    <input type="email" id="new-email" class="w-full border border-gray-200 bg-gray-200 rounded-md py-2 px-4 pr-10">
+                    <button class="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400" onclick="togglePasswordVisibility('confirm-password')">
+                        <img src="../assets/Oculto.png" alt="Oculto" class="w-[40px]">
+                    </button>
+                </div>
+            </div>
+            <div class="w-11/12 rounded-md py-2 px-4 mb-4">
+                <label for="password" class="block text-sm font-semibold text-gray-600 mb-1" data-translate="senha">Senha</label>
+                <div class="relative">
+                    <input type="password" id="confirm-password" class="w-full border border-gray-200 bg-gray-200 rounded-md py-2 px-4 pr-10">
+                    <button class="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400" onclick="togglePasswordVisibility('confirm-password')">
+                        <img src="../assets/Oculto.png" alt="Oculto" class="w-[40px]">
+                    </button>
+                </div>
+            </div>
+            <button onclick="window.location.href='./loginclienteconfirmar.html'" class="w-9/12 font-semibold relative border-2 border-tech-blue hover:bg-blue-950 hover:text-white text-tech-blue py-2 px-4 mb-4" data-translate="continuar">Continuar</button>
+            <div class="w-full bg-gray-300 text-white py-[1px] px-4 mb-2"></div>
+            <button onclick="window.location.href='./esquecisenha.html'" class="w-10/12 text-blue-900 border-2 border-blue-900 hover:bg-blue-950 hover:text-white rounded-full font-semibold py-2 px-4 mb-6" data-translate="esqueceu-senha">Esqueceu Sua Senha?</button>
+        </div>
+        </main>
+    </div>
+    <script src="js/js_language.js"></script>
+</body>
+</html>
+
