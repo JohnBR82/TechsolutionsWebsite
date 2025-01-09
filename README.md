@@ -4,7 +4,7 @@
 
 🇧🇷​ Linguagens / 🇺🇸​ Language
 
-![My Skills](https://skillicons.dev/icons?i=vue) Vue.js <br/>
+![My Skills](https://skillicons.dev/icons?i=html) HTML <br/>
 ![My Skills](https://skillicons.dev/icons?i=tailwindcss) Tailwind.css <br/>
 ![My Skills](https://skillicons.dev/icons?i=js) Javascript <br/>
 
