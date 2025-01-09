@@ -14,7 +14,7 @@
 
 ### Seja bem vindo ao website, projetado anteriormente por mim para um projeto freelancer, que se tornou um projeto de demonstração das minhas habilidades profissionais
 
-### Incluso no projeto habilidades de refatoração de codigo e boas praticas, a utilização de Vue.js, que poderia facilmente ser convertido em React.js ou Angular.js com algumas modificações, mas tendo usabilidade e a responsividade em ambiente de celular e pc, a utilização de Javascript em criação de tradução da pagina e carrossel, além de tailwind css estar incluso no ambiente dando assim a simplificação do codigo dentro de cada codigo html embutido.
+### Incluso no projeto habilidades de refatoração de codigo e boas praticas, a utilização de Javascript na criação de elementos como carrossel, tradução, redirecionamentos e API do googlemaps, que poderia facilmente ser convertido em React.js ou Vue.js com algumas modificações, mas tendo usabilidade e a responsividade em ambiente de celular e pc,  além de ser usado tailwind css estar incluso no ambiente dando assim a simplificação do codigo dentro de cada codigo html embutido.
 
 ### Atenção: este projeto é uma mera representação de teste de habilidades, não é um site proprio ou com fins lucrativos
 
@@ -34,7 +34,7 @@
 
 ### Welcome to the website, originally designed by me for a freelance project, which has now become a demonstration of my professional skills.
 
-### Included in the project are skills in code refactoring and best practices, the use of Vue.js, which could easily be converted to React.js or Angular.js with some modifications, while maintaining usability and responsiveness on both mobile and desktop environments. The project also features Javascript for page translation and carousel creation, and Tailwind CSS is included to simplify the code within each embedded HTML block.
+### The project includes skills in code refactoring and best practices, utilizing JavaScript to create elements such as carousels, translation features, redirects, and the Google Maps API. These could easily be converted into React.js or Vue.js with a few modifications, while maintaining usability and responsiveness on both mobile and desktop environments. Additionally, Tailwind CSS is used within the project, simplifying the code in each embedded HTML component.
 
 ### Attention: This project is merely a test representation of skills; it is not a personal or profit-driven website.
 
